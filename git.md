@@ -22,4 +22,26 @@ simple: (since 1.7.11) like upstream, but refuses to push if the upstream branch
 git push origin HEAD
 ```
 
+**Abort last merge**
+```
+git merge --abort
+```
+
+**Cancel last commit**
+```
+git reset HEAD~1 (not pushed)
+git reset HEAD (already pushed)
+```
+
+**Delete local branch**
+```
+git branch -D {branch}
+```
+
+**Delete remote branch**
+```
+git push origin :{branch}
+git push origin --delete {branch} (since v1.7)
+```
+
 [1]: https://git-scm.com/docs/git-config
