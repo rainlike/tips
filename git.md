@@ -2,7 +2,7 @@ Git
 ===
 
 **helpful links**
-* [git-config documentation][1]
+* [git-config documentation](https://git-scm.com/docs/git-config)
 
 **Push only the current branch (permanently)**
 ```
@@ -43,5 +43,3 @@ git branch -D {branch}
 git push origin :{branch}
 git push origin --delete {branch} (since v1.7)
 ```
-
-[1]: https://git-scm.com/docs/git-config
