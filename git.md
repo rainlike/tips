@@ -51,5 +51,5 @@ git remote -v
 
 **Change remote URL**
 ```
-git remote set-url origin {ssh|https}://github.com/{username}/{repository}.git
+git remote set-url origin [ssh|https]://github.com/{username}/{repository}.git
 ```
