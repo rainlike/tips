@@ -43,3 +43,13 @@ git branch -D {branch}
 git push origin :{branch}
 git push origin --delete {branch} (since v1.7)
 ```
+
+**Check existing remote URL**
+```
+git remote -v
+```
+
+**Change remote URL**
+```
+git remote set-url origin {ssh|https}://github.com/{username}/{repository}.git
+```
