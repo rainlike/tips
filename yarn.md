@@ -30,7 +30,7 @@ yarn add {package}[@{version|tag}]
 ```
 _possible options_
 ```
---dev/-D - will install package in devDependencies section
+--dev|-D - will install package in devDependencies section
 --peer  - will install package in peerDependencies section
 --optional - will install package in optionalDependencies section
 ```
