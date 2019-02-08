@@ -33,6 +33,12 @@ git reset HEAD~1 (not pushed)
 git reset HEAD (already pushed)
 ```
 
+**Cancel last merge**
+```
+git reset --hard {hash}
+git reset --hard HEAD~1
+```
+
 **Delete local branch**
 ```
 git branch -D {branch}
