@@ -59,3 +59,8 @@ git remote -v
 ```
 git remote set-url origin [ssh|https{://}]github.com/{username}/{repository}.git
 ```
+
+**Check configuration**
+```
+git config --list
+```
