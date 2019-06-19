@@ -3,6 +3,7 @@ Golang
 
 **helpful links**
 * [index](https://golang.org/)
+* [standart packages](https://golang.org/pkg/)
 * [examples](https://github.com/adonovan/gopl.io)
 
 **Default paths**
