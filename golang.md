@@ -7,9 +7,9 @@ Golang
 
 **Default paths**
 ```
-export GOROOT=~/go
-export GOPATH=~/go
-export PATH=$PATH:$GOPATH/bin
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 ```
 
 **Run a file**
@@ -21,6 +21,11 @@ go run {file}
 ```
 go build {file}
 ./{file} -- execute the compiled file
+```
+
+**Install official tool**
+```
+go get golang.org/x/tools/cmd/{tool}
 ```
 
 **Check Golang variable**
